@@ -20,16 +20,16 @@
                     <p>Inicio</p>
                 </div>
                 <div class="navbar__option navbar__option--mod">
-                    <p>Tratamientos</p>
+                    <p><a href="#treadment">Tratamientos</a></p>
                 </div>
                 <div class="navbar__option navbar__option--mod">
-                    <p>Quiénes somos</p>
+                    <p><a href="#presentation">Quiénes somos</a></p>
                 </div>
                 <div class="navbar__option navbar__option--mod">
-                    <p>Ubicación</p>
+                    <p><a href="#">Ubicación</a></p>
                 </div>
                 <div class="navbar__option navbar__option--contact">
-                    <p>Contáctanos</p>
+                    <p><a href="#footer">Contáctanos</a></p>
                 </div>
             </nav>
         </div>
@@ -76,19 +76,21 @@
             </div>
         </section>
 
-        <section class="info-cards">
+        <section id="treadment" class="info-cards">
             <div class="card">
                 <div class="card__title">
                     <h3>Dermatología Clínica</h3>
                 </div>
                 <img src="assets/tratamiento1.jpeg" alt="Dermatología Clínica">
                 <div class="card__footer">
-                    <p>Ver más</p>
+                    <a href="#clinic">
+                    <p> Ver más</p>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
                             fill="currentColor" />
                     </svg>
+                    </a>
                 </div>
             </div>
             <div class="card">
@@ -97,12 +99,14 @@
                 </div>
                 <img src="assets/tratamiento2.jpeg" alt="Dermatología Estética">
                 <div class="card__footer">
-                    <p>Ver más</p>
+                    <a href="#estetic">
+                    <p> Ver más</p>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
                             fill="currentColor" />
                     </svg>
+                    </a>
                 </div>
             </div>
             <div class="card">
@@ -111,17 +115,19 @@
                 </div>
                 <img src="assets/tratamiento3.png" alt="Dermatología Quirúrgica">
                 <div class="card__footer">
-                    <p>Ver más</p>
+                    <a href="#quirurgic">
+                    <p> Ver más</p>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z"
                             fill="currentColor" />
                     </svg>
+                    </a>
                 </div>
             </div>
         </section>
 
-        <section class="presentation">
+        <section id="presentation" class="presentation">
             <div class="presentation__container">
                 <div class="presentation__header">
                     <div class="presentation__header__img">
@@ -166,7 +172,7 @@
 
         <section class="treadment">
             <div class="treadment__container">
-                <div class="treadment__item">
+                <div id="clinic" class="treadment__item">
                     <div class="treadment__accordion">
                         <div class="accordion__container">
                             <div class="accordion__title">Dermatología Clínica</div>
@@ -258,7 +264,7 @@
                     </div>
                 </div>
 
-                <div class="treadment__item">
+                <div id="estetic" class="treadment__item">
                     <div class="treadment__accordion">
                         <div class="accordion__container">
                             <div class="accordion__title">Dermatología Estética</div>
@@ -350,7 +356,7 @@
                     </div>
                 </div>
 
-                <div class="treadment__item">
+                <div id="quirurgic" class="treadment__item">
                     <div class="treadment__accordion">
                         <div class="accordion__container">
                             <div class="accordion__title">Dermatología Quirúrgica</div>
@@ -448,7 +454,7 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer id="footer" class="footer">
         <div class="footer__container">
             <div class="footer__column">
                 <div class="footer__item">
