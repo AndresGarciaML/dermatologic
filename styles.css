@@ -322,7 +322,8 @@ body {
 
 
 .treadment {
-
+    background: url("assets/treadment_background.png");
+    padding: 32px 0;
 }
 
 .treadment__container {
@@ -335,12 +336,18 @@ body {
     margin-bottom: 32px;
 }
 
+.treadment__item--reverse {
+    flex-direction: row-reverse;
+}
+
 .treadment__accordion {
     flex: 7;
+    margin: auto;
 }
 
 .treadment__img {
     flex: 3;
+    padding:24px;
 }
 
 .treadment__img > img {
@@ -357,7 +364,6 @@ body {
     color: white;
     cursor: pointer;
     padding: 15px;
-    width: 100%;
     border: none;
     text-align: left;
     outline: none;
