@@ -481,3 +481,78 @@ body {
     margin-top: 32px;
     text-align: center;
 }
+
+.stories {
+    background-color: #4a1d69;
+}
+
+.stories_container {
+    padding: 32px;
+}
+
+.stories_subtitle {
+    font-size: 24px;
+    color: #f5f1f1;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px 0;
+}
+
+.stories_title {
+    font-size: 32px;
+    color: #f5f1f1;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.stories_cards {
+    display: flex;
+    justify-content: center;
+}
+
+.storie_card {
+    flex: 1;
+    max-width: 350px;
+    background-color: #f5f1f1;
+    padding: 8px 4px;
+    margin: 16px;
+}
+
+.storie_card_head {
+    display: flex;
+    justify-content: center;
+}
+
+.storie_card_head > .card_img {
+    flex: 1;
+    
+}
+
+.storie_card_head > .card_img > img {
+    width: 170px;
+    height: 170px;
+    display: block;
+    margin: 0 auto;
+}
+
+.storie_card_head > .card_img > p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    color: #4a1d69;
+}
+
+.storie_card_text {
+    padding: 8px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.storie_card_text > p {
+    font-weight: 700; 
+}
+
+.storie_text{
+    margin: 16px 0 0 8px;
+}
