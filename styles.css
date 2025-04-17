@@ -556,3 +556,74 @@ body {
 .storie_text{
     margin: 16px 0 0 8px;
 }
+
+
+.contact {
+    display: flex;
+    background: url("assets/background_banner.png");
+}
+
+.contact_text {
+    flex: 3;
+    padding: 48px 32px 32px 48px;
+}
+
+.contact_title {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.contact_subtitle{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px 0;
+    color: var(--primary-color);
+}
+
+.contact_description {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact_img {
+    display: flex;
+    flex: 1;
+}
+
+.contact_info {
+    padding-top: 32px;
+
+}
+
+.contact_email{
+    margin: 16px 0;
+}
+
+.contact_email > svg {
+    position: relative;
+    top: 16px;
+    color: var(--primary-color);
+}
+
+.contact_email_text{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px 0;
+}
+
+.contact_social {
+    padding-top: 18px;
+}
+
+.contact_phone > svg {
+    position: relative;
+    top: 8px;
+    color: var(--primary-color);
+}
+
+.phone_content {
+    display: inline-block;
+    font-size: 18px;
+}
